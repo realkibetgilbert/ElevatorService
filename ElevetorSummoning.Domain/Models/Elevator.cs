@@ -4,7 +4,7 @@
     {
         public int Id { get; }
         public string SerialNumber { get; }
-        public long CurrentFloor { get; set; }
+        public int CurrentFloor { get; set; }
 
         public Elevator(int id, string serialNumber, int currentFloor)
         {
