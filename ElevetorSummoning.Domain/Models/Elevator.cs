@@ -12,11 +12,5 @@
             SerialNumber = serialNumber;
             CurrentFloor = currentFloor;
         }
-        public void MoveTo(int floor)
-        {
-            CurrentFloor = floor;
-        }
-
-
     }
 }
